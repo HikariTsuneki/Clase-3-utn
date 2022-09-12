@@ -1,3 +1,27 @@
 body {
-  background-color: #F7B0FF;
+  background: radial-gradient(#FFD4A5, #A63FA5);
+}
+
+.myName { 
+  color: #A201FF;
+  font-size: 20px;
+  text-align: center;
+ }
+
+.parrafoUno
+{
+  color: #4335FF;
+  font-weight: bold;
+}
+
+.parrafoDos
+{
+  color: rgba(25, 25, 25, 0.96);
+  font-weight:  bolder;
+}
+
+.parrafoTres
+{
+  color: darkblue;
+  font-weight: bold;
 }
