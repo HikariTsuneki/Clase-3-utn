@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(#FFD4A5, #A63FA5);
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 
 .myName { 
@@ -7,6 +7,18 @@ body {
   font-size: 20px;
   text-align: center;
  }
+
+.lista1 {
+
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+}
+.lista2 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+}
 
 .parrafoUno
 {
@@ -24,4 +36,12 @@ body {
 {
   color: darkblue;
   font-weight: bold;
+}
+
+.example1
+{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  color: darkblue;
 }
